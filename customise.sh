@@ -31,7 +31,7 @@ cd ..
 
 
 #fetch db creation script for ethercis and run it
-git clone https://github.com/ethercis/ehrservice || { echo "Could not clone ethercis/ehrservice repository, exiting..." && exit 1; }
+git clone https://github.com/davidatkinsuk/ehrservice || { echo "Could not clone ethercis/ehrservice repository, exiting..." && exit 1; }
 
 cd ehrservice/db # stay in this dir, we'll run graddle in a while
 
